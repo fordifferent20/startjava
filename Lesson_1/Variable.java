@@ -1,20 +1,20 @@
 public class Variable {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
     // Обявление в методе переменных всех существующих в Java примитивных типов данных. Каждой переменной присвоено значение.
-        char c = 'I'; 
+       
+        char series = 'I'; 
         int i = 5; 
-        byte b = 4; 
-        short s = 4590; 
-        long l = 4600; 
-        float f = 3.30f; 
-        double d = 3.3030d; 
-        boolean bl = true;
+        byte cores = 4; 
+        short sku = 4590; 
+        long graph = 4600; 
+        float frequence = 3.30f; 
+        double doublefreq = 3.3030d; 
+        boolean conformity = true;
 
     // Вывод    
-        System.out.println("CPU " + b + " core " + "Intel " + c + i +"-" + s + " CPU " + f + " GHz" + " (" + d + " GHz" + ")");
-        System.out.println("HD Graphics " + l);
+        System.out.println("CPU " + cores + " core " + "Intel " + series + i +"-" + sku + " CPU " + frequence + " GHz" + " (" + doublefreq + " GHz" + ")");
+        System.out.println("HD Graphics " + graph);
         System.out.println(" ");
-        System.out.println(bl);
+        System.out.println(conformity);
     }
 }
