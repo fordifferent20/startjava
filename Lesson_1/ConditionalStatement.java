@@ -1,36 +1,35 @@
 public class ConditionalStatement {
 	public static void main(String[] args) {
-		
-		int Year = 30;
-		if ( Year > 20 ) {
+		int age = 30;
+		if(age > 20) {
 			System.out.println("Age over 20");
 		}
-
-		boolean isMale = true;
-		if ( isMale == true ) {
+		boolean isMale = false;
+		if(isMale == true) {
 			System.out.println("This is a man");
 		}
-
-		boolean isFamale = true;
-		if ( isFamale == true ) {
+		/*
+		Вариант решения		
+		} else if(isMale == false) {
 			System.out.println("This is a woman");
 		}
-
+		*/
+		if(isMale == false) {
+			System.out.println("This is a woman");
+		}
 		float height = 1.90f;
-		if ( height < 1.80 ) {
+		if(height < 1.80) {
 			System.out.println("Big gnome");
-		}else{
+		} else {
 			System.out.println("Little giant");
 		}
-
-		char firstletter = 'M';
-		if ( firstletter == 'M') {
+		char firstLetterName = 'M';
+		if(firstLetterName == 'M') {
 			System.out.println("This is Masha");
-		}else if ( firstletter == 'S') {
+		} else if(firstLetterName == 'S') {
 			System.out.println("This is Sasha");
-		}else{
+		} else {
 			System.out.println("No Masha, no Sasha");
-			
 		}
 	}
 }
