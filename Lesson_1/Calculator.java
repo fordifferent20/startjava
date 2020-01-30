@@ -1,40 +1,31 @@
 public class Calculator {
 	public static void main(String[] args) {
-		if( 5 + 3  == 8 ) {
-			System.out.println("5 + 3 = 8");
+		int a = 10;
+		int b = 5;
+		if(a + b  == 15) {
+			System.out.println("10 + 5 = 15");
 			System.out.println("");
-		} else {
-			System.out.println("Incorrect value");
 		}
-		if( 10 - 6 == 4) {
-			System.out.println("10 - 6 = 4");
+		if(a - b == 5) {
+			System.out.println("10 - 5 = 5");
 			System.out.println("");
-		} else {
-			System.out.println("Incorrect value");
 		}
-		if( 15 * 4  == 60 ) {
-			System.out.println("15 + 4 = 60");
+		if(a * b  == 50) {
+			System.out.println("10 * 5 = 50");
 			System.out.println("");
-		} else {
-			System.out.println("Incorrect value");
 		}
-		if( 100 / 4  == 25 ) {
-			System.out.println("100 / 4 = 25");
+		if(a / b  == 2) {
+			System.out.println("10 / 5 = 2");
 			System.out.println("");
-		} else {
-			System.out.println("Incorrect value");
 		}
-		/*if( 2 ^ 4  == 16 ) {
-			System.out.println("2 ^ 4 = 16");
+		if(Math.pow(a, b) == 100000) {
+			System.out.println(Math.pow(a, b));
+		}
+		if(b % 2  == 0) {
+			System.out.println("5 % 2 = 0"); // 10 без остатка делится на 2
 			System.out.println("");
 		} else {
-			System.out.println("Incorrect value");
-		}*/	
-		if( 10 % 2  == 0 ) {
-			System.out.println("10 % 2 = 0"); // 10 без остатка делится на 2
-			System.out.println("");
-		} else {
-			System.out.println("Incorrect value");
+			System.out.println("5 % 2 = 0 " + "- Incorrect value");
 		}
 	}
 
